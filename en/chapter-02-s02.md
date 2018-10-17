@@ -14,9 +14,10 @@ If you don’t want leave **Ubuntu SDK-IDE**, an unofficial alternative, is use 
 
 
 The **UBports** development environment is composed of three parts:
+
 1. [Atom editor](https://atom.io/)
-1. [Clickable](http://clickable.bhdouglass.com/en/latest/ ) as tool to build, compile an run applications.
-1. [atom-build-clickable](https://atom.io/packages/atom-build-clickable) an Atom plugin to use Clickable from Atom
+2. [Clickable](http://clickable.bhdouglass.com/en/latest/ ) as tool to build, compile an run applications.
+3. [atom-build-clickable](https://atom.io/packages/atom-build-clickable) an Atom plugin to use Clickable from Atom
 
 For deeper informations about them, please, see their web site: we’ll present only the necessary informations.
 
@@ -25,9 +26,9 @@ For deeper informations about them, please, see their web site: we’ll present 
 **Clickable** is a command line tool to build, run and deploy Ubuntu Touch (UBports) applications. Currently the last stable version is the 5.0.0. To install it or get the official documentation [visit this link](http://clickable.bhdouglass.com/en/latest/install.html).
 We don’t report here the installation steps because are already well explained on the web site.
 
-**Note:** If you have a Nvidia graphic card, we suggest to use the open source Nvidia driver (named "Nouveau") not the closed source version, currently could be little issues using the new development environment.
+**Note:** If you have a Nvidia graphic card, we suggest to use the open source Nvidia driver (named "Nouveau") not the closed source version, currently could be little issues using the new development environment's "desktop mode".
 
-All **Clickable** features are available with his executable named "clickable" (is not necessary be root to use it).
+All **Clickable** features are available with the executable named "clickable" (is not necessary be root to use it).
 
 At configuration level introduces a new file descriptor named "**clickable.json**" to be placed in the root source folder of the application (the one with "manifest.json" and ".pro" files). See: [clickable.json Format](http://clickable.bhdouglass.com/en/latest/clickable-json.html for details).
 
